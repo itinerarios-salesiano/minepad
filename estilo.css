@@ -1,7 +1,83 @@
-﻿.titulo {
-    border-color: aliceblue;
-    border-start-start-radius: 5;
-    border-bottom: 1px;
-    border-bottom: 2px dotted;
-    border-bottom: medium dashed blue;
-}
+﻿        @import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+    @import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
+    @font-face {
+        font-family: "Minecraft";
+        src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot");
+        src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg");
+    }
+    
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Grandstander', cursive;
+    }
+    
+    section {
+        padding: 5rem 5rem;
+    }
+    
+    .hero {
+        margin: -10px;
+        height: 60vh;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom right, #84e051, #65e0bb);
+        background-attachment: fixed;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px #000000;
+        font-family: "Minecraft";
+    }
+    
+    .descricao {
+        background-color: #f0f0f0;
+        border-radius: 5px 10px 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .Inventory {
+        margin: 0;
+        height: 20;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #888;
+    }
+    
+    .shadow {
+        text-shadow: 2px 2px #000000;
+    }
+    
+    .img-frame {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .backpack {
+        transition: .5s ease;
+    }
+    
+    .backpack:hover {
+        transform: scale(1.05);
+        transition: .5s ease;
+    }
+    
+    @media screen and (min-width: 800px) {
+        .hero {
+            height: 50vh;
+            font-size: 5rem;
+        }
+        .cards {
+            display: flex;
+            margin-top: -8rem;
+        }
+        .card {
+            height: 300px;
+            width: 30%;
+            margin: 2%;
+        }
