@@ -1,0 +1,7 @@
+﻿.titulo {
+    border-color: aliceblue;
+    border-start-start-radius: 5;
+    border-bottom: 1px;
+    border-bottom: 2px dotted;
+    border-bottom: medium dashed blue;
+}
